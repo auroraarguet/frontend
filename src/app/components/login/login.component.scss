@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(70, 73, 72);
+}
+
+#inicio-de-sesion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 206, 87);
+  padding: 2rem; /* Aumentar el padding */
+  border-radius: 10px;
+  min-width: 400px; /* Aumentar el ancho mínimo */
+  min-height: 300px; /* Aumentar la altura mínima */
+}
+
+label {
+  margin-bottom: 1.5rem; /* Aumentar el margen inferior de las etiquetas */
+}
+
+h1 {
+  font-size: 2rem; /* Aumentar el tamaño de la fuente del título */
+  margin-bottom: 2rem; /* Aumentar el margen inferior del título */
+}
+
